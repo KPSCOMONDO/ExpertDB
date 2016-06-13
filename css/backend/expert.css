@@ -1,0 +1,71 @@
+.experience{
+    display: none;
+}
+.checkbox-inline{
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+.item{
+    margin: 15px 10px 15px 0px;    
+}
+.selected-item{
+    margin: 15px 10px 15px 0px;    
+}
+.selected-item:hover{
+    border-bottom: #81C784 solid 1px;
+}
+.component{
+    margin-top: 30px;
+    margin-bottom: 10px;    
+}
+label{
+    margin-top: 30px;
+    margin-bottom: 5px;    
+    font-size: 12pt;
+}
+.navbar{
+    background-color: #4CAF50;
+}
+h1,h2,h3,h4
+{
+    color: #4CAF50;    
+}
+.panel,.form-control{
+    border-radius: 0%;       
+}
+.edit{
+    background-color: #ffffff;
+    color: gainsboro;
+    border: none;
+    font-size: 14pt;
+}
+.fa-edit{
+    color: #FF9800;
+}
+.add{
+    background-color: #ffffff;
+    color: gainsboro;
+    border: none;
+    font-size: 14pt;
+}
+.fa-plus{
+    color: #00B8D4;
+}
+.remove{
+    background-color: #ffffff;
+    color: gainsboro;
+    border: none;
+    font-size: 14pt;
+}
+.fa-times{
+    color: #E91E63;
+}
+button:hover{
+    background-color: white;
+    color:#81C784;
+    border: none;
+    font-size: 14pt;
+}
+.level{
+    font-size: 8pt;
+}
