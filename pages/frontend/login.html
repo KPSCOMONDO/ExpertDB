@@ -67,14 +67,12 @@
         <script src="../../js/backend/sb-admin-2.js" type="text/javascript"></script>
         <script>
             $(function () {
-                $("#btn-login").click(function () {
-                    if ($("#txEmail") === "Admin") {
-                        window.location.href = "../admin/index.html";
-                    }
-                    else if ($("#txEmail") === "Expert"){
+                $("#btn-login").click(function () {                    
+                    if ($("#txEmail").val() === "Admin") {                        
+                        window.location.href = "../admin/index.html";                        
+                    } else if ($("#txEmail").val() === "Expert") {
                         window.location.href = "../expert/index.html";
-                    }
-                    else if ($("#txEmail") === "User"){
+                    } else if ($("#txEmail").val() === "User") {
                         window.location.href = "../user/index.html";
                     }
                 });
