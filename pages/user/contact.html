@@ -17,6 +17,7 @@
         <link href="../../font-awesome/css/sb-admin-2.css" rel="stylesheet" type="text/css"/>
         <!-- Custom Fonts -->
         <link href="../../bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+
     </head>
 
     <body>
@@ -37,9 +38,6 @@
                 <!-- /.navbar-header -->
 
                 <ul class="nav navbar-top-links navbar-right">
-                    <li>
-                        <a href="../frontend/index.html">Home</a>
-                    </li>
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                             <i class="fa fa-envelope fa-fw"></i>  <i class="fa fa-caret-down"></i>
@@ -98,8 +96,9 @@
                         <ul class="dropdown-menu dropdown-user">
                             <li><a href="../expert/index.html"><i class="fa fa-graduation-cap fa-fw"></i> Become Expert</a>
                             <li><a href="../employer/index.html"><i class="fa fa-group fa-fw"></i> Become Employer</a>
-                            </li>                            
-                            <li><a href="edit.html"><i class="fa fa-gear fa-fw"></i> Edit profile</a>
+                            </li>
+                            <li><a href="index.html"><i class="fa fa-user fa-fw"></i> User Profile</a>
+                            <li><a href="edit.html"><i class="fa fa-gear fa-fw"></i> Settings</a>
                             </li>
                             <li class="divider"></li>
                             <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
@@ -113,11 +112,14 @@
 
                 <div class="navbar-default sidebar" role="navigation">
                     <div class="sidebar-nav navbar-collapse">
-                        <ul class="nav" id="side-menu">                            
+                        <ul class="nav" id="side-menu">                                                       
                             <li>
-                                <a href="edit.html"><i class="fa fa-gear fa-fw"></i> Edit profile</a>
-                            </li>                                                        
-                        </ul>
+                                <a href="edit.html"><i class="fa fa-gear fa-fw"></i> Basic information</a>
+                            </li>     
+                            <li>
+                                <a href="#"><i class="fa fa-gear fa-fw"></i> Contact information</a>
+                            </li>
+                        </ul>                                                   
                     </div>
                     <!-- /.sidebar-collapse -->
                 </div>
@@ -126,61 +128,75 @@
 
             <div id="page-wrapper">
                 <div class="row">                    
-                    <div class="col-lg-12">
+                    <div class="col-lg-10">
                         <!--                        <button class="btn"><i class="fa fa-upload">Upload</i></button>-->                             
                         <!-- /.row -->
-                        <div class="row">                            
-                            <!-- /.col-lg-12 -->
+                        <div class="row">
                             <div class="col-lg-12">
                                 <div class="panel panel-default">
                                     <div class="panel-heading">
-                                        <h3 class="panel-title">Basic information</h3>
+                                        <h4>Contact Information</h4>
                                     </div>
-                                    <div class="panel-body">
-                                        <div class="row">
-                                            <div class="col-md-3 col-lg-3 " align="center"> 
-                                                <img src="../../img/channy.jpg" class="img-responsive img-circle"/>
-                                            </div>
-                                            <div class=" col-md-9 col-lg-9 "> 
-                                                <h1>Sok Channy</h1>
-                                                <table class="table table-user-information">
-                                                    <tbody>                                                                                                                                                                     
-                                                        <tr>
-                                                            <td>Gender</td>
-                                                            <td>Male</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Date of Birth</td>
-                                                            <td>01/24/1988</td>
-                                                        </tr>                                                        
-                                                        <tr>
-                                                            <td>Home Address</td>
-                                                            <td>Sokchanny.sg@gamil.com<br><br>Kimcheng@got.com</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Email</td>
-                                                            <td><a href="mailto:info@support.com">info@support.com</a></td>
-                                                        </tr>
-                                                        <tr><td>Home phone</td>
-                                                            <td>(+855)23-4567-890<br><br>(+855)55-4567-890</td>
-                                                        </tr>
-                                                        <tr><td>Mobile phone</td>
-                                                            <td>(+855)12-3-45-890<br><br>(+855)15-25-67-890</td>
-                                                        </tr>
+                                    <div class="panel-body">                                        
+                                        <div class="row col-lg-12">
+                                            <div class="col-lg-12">
+                                                <form role="form">
+                                                    <div class="form-group">                                                        
+                                                        <div class="col-lg-12">
+                                                            <label>Home phone</label>
+                                                        </div>
+                                                        <div class="col-lg-10 item">
+                                                            <span class="selected-item">(+855)23 398 989 0 <a href="#"><i class="fa fa-times"></i></a></span>
+                                                            <span class="selected-item">(+855)55 398 989 0 <a href="#"><i class="fa fa-times"></i></a></span>
+                                                        </div>
+                                                        <div class="col-lg-8">
+                                                            <input class="form-control" placeholder="(+855)23 1288 9988">                                                      
+                                                        </div>                                                            
+                                                        <div class="col-lg-4">
+                                                            <button class="add"><i class="fa fa-plus"></i> Add</button>                                            
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <div class="col-lg-12">
+                                                            <label>Mobile phone</label>
+                                                        </div>
+                                                        <div class="col-lg-10 item">
+                                                            <span class="selected-item">(+855)10 651 443<a href="#"><i class="fa fa-times"></i></a></span>
+                                                            <span class="selected-item">(+855)088 651 4430<a href="#"><i class="fa fa-times"></i></a></span>
+                                                        </div>
+                                                        <div class="col-lg-8">
+                                                            <input class="form-control" placeholder="(+855)10 128 128">                                                                                                                                  
+                                                        </div>                                                            
+                                                        <div class="col-lg-4">
+                                                            <button class="add"><i class="fa fa-plus"></i> Add</button>                                                            
+                                                        </div>
+                                                    </div>                                                                                                
 
-                                                    </tbody>
-                                                </table>                                                
+                                                    <div class="form-group">
+                                                        <div class="col-lg-12">
+                                                            <label>Email address</label>
+                                                        </div>
+                                                        <div class="col-lg-10 item">
+                                                            <span class="selected-item">Sok.deg@gamil.com <a href="#"><i class="fa fa-times"></i></a></span>
+                                                        </div>
+                                                        <div class="col-lg-8">
+                                                            <input class="form-control" placeholder="Ex. Sokchanny12@rupp.com"/>
+                                                        </div>                                                            
+                                                        <div class="col-lg-4">
+                                                            <button class="add"><i class="fa fa-plus"></i> Add</button>                                                            
+                                                        </div>
+                                                    </div>                                                    
+
+                                                    <div class="component col-lg-12">
+                                                        <button class="btn btn-primary">Save</button>                                                        
+                                                    </div>
+                                                </form>
                                             </div>
+                                            <!-- /.col-lg-6 (nested) -->
                                         </div>
+                                        <!-- /.row (nested) -->
                                     </div>
-                                    <div class="panel-footer">
-                                        <a data-original-title="Broadcast Message" data-toggle="tooltip" type="button" class="btn btn-sm btn-primary"><i class="glyphicon glyphicon-envelope"></i></a>
-                                        <span class="pull-right">
-                                            <a href="edit.html" data-original-title="Edit this user" data-toggle="tooltip" type="button" class="btn btn-sm btn-warning"><i class="glyphicon glyphicon-edit"></i></a>
-                                            <a data-original-title="Remove this user" data-toggle="tooltip" type="button" class="btn btn-sm btn-danger"><i class="glyphicon glyphicon-remove"></i></a>
-                                        </span>
-                                    </div>
-
+                                    <!-- /.panel-body -->
                                 </div>
                                 <!-- /.panel -->
                             </div>

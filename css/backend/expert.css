@@ -24,11 +24,11 @@ label{
     font-size: 12pt;
 }
 .navbar{
-    background-color: #4CAF50;
+    background-color: white;
 }
 h1,h2,h3,h4
 {
-    color: #4CAF50;    
+    color: #101010;    
 }
 .panel,.form-control{
     border-radius: 0%;       
