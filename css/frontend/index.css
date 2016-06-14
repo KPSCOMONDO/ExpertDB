@@ -275,6 +275,14 @@ header .intro-text .intro-heading {
         margin-bottom: 50px;
     }
 }
+.pad-100{
+    padding-top: 10%; 
+    padding-bottom: 0px;
+}
+.pad-0{
+    padding-bottom: 0px;
+    font-size: 18pt;
+}
 section {
     padding: 100px 0;
 }
@@ -817,4 +825,15 @@ body {
     .vertical-line-right{
         border-right: solid gainsboro 1px; 
     }
+}
+h6.text-muted{
+    color: #03A9F4;
+}
+h3.text-muted,h4.text-muted{
+    color: #03A9F4;
+    padding-bottom:10px;
+    padding-top: 20px;
+}
+.searchbox{
+    padding-bottom: 50px;
 }
