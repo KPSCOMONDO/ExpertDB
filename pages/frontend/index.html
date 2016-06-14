@@ -419,10 +419,10 @@
         </footer>
 
         <!-- Login Popup -->
-        <div class="container">            
+        <div class="container col-lg-10">            
             <!-- Trigger the modal with a button -->                        
-            <div class="modal fade" id="myModal" role="dialog">
-                <div class="modal-dialog col-lg-12 bg-white">                                                     
+            <div class="modal fade  col-lg-4 col-lg-offset-4" id="myModal" role="dialog">
+                <div class="bg-white">                                                     
                     <div class="modal-header">
                         <h4 class="modal-title"><span><i class="fa fa-user"></i></span> <b>Sign In</b></h4>
                     </div>
@@ -441,12 +441,12 @@
                                     </label>
                                 </div>                              
                             </fieldset>
+                            <a id="btn-login" class="btn btn-lg btn-success btn-block" href="detail.html">Log In</a>
                         </form>
-                        <input type="submit" id="btn-login" class="btn btn-lg btn-success btn-block" value="Login" >
+                        
                         <div class="text-right">
-                            <p class="text-muted">Is not a member? <a href="signup.html">Sign up</a></p>
-                            <p class="text-muted">Forget password? <a href="resetpassword.html">Reset password</a></p>
-
+                            <label class="text-muted">Is not a member? <a href="signup.html">Sign up</a></label><br>
+                            <label class="text-muted">Forget password? <a href="resetpassword.html">Reset password</a></label>
                         </div>                            
                     </div>
                     <div class="modal-footer text-center">

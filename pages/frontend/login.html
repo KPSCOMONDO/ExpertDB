@@ -46,9 +46,8 @@
                             </form>
                             <input type="submit" id="btn-login1" class="btn btn-lg btn-success btn-block" value="Login" >
                             <div class="text-right">
-                                <p class="text-muted">Is not a member? <a href="signup.html">Sign up</a></p>
-                                <p class="text-muted">Forget password? <a href="resetpassword.html">Reset password</a></p>
-
+                                <label class="text-muted">Is not a member? <a href="signup.html">Sign up</a></label><br>
+                                <label class="text-muted">Forget password? <a href="resetpassword.html">Reset password</a></label>  
                             </div>                            
                         </div>
                         <div class="panel-footer text-center">
@@ -71,10 +70,9 @@
                 $("#btn-login1").click(function () {
 
                     if ($("#txEmail").val() === "Admin") {
-                        window.location.href = "../admin/index.html";
-                        alert("admin");
+                        window.location.href = "../expert/index.html";                      
                     } else if ($("#txEmail").val() === "Expert") {
-                        window.location.href = "../expert/index.html";
+                        window.location.href = "../user/index.html";
                     } else if ($("#txEmail").val() === "User") {
                         window.location.href = "../user/index.html";
                     }
