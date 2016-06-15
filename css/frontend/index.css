@@ -35,8 +35,9 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #00BCD4;
+    color: #616161;
 }
+
 h1,
 h2,
 h3,
@@ -827,7 +828,7 @@ body {
     }
 }
 h6.text-muted{
-    color: #E65100;
+    color: #00BCD4;
 }
 h3.text-muted,h4.text-muted{
     color: #03A9F4;
@@ -845,8 +846,13 @@ h3.text-muted,h4.text-muted{
     -moz-box-shadow: inset -8px -200px 300px -30px rgba(250,250,250,0.88);
     box-shadow: inset -8px -200px 300px -30px rgba(250,250,250,0.88);
 }
-@media (min-width: 992px) {
+@media (min-height: 700px) {
     .scroll{
-        height:700px;overflow-y:auto;width:auto;overflow-x : hidden;        
+        height:500px;overflow-y:auto;width:auto;overflow-x : hidden;        
+    }
+}
+@media (min-height: 1200px) {
+    .scroll{
+        height:1000px;overflow-y:auto;width:auto;overflow-x : hidden;        
     }
 }
