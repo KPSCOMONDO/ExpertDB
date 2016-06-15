@@ -132,12 +132,20 @@ iframe {
     margin-top: 30px;
 }
 .header .profile-content .desc {
-    color: #778492;
+    color: #00E676;
     font-family: "Lato", arial, sans-serif;
     font-weight: 400;
     font-size: 24px;
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 15px;    
+}
+.header .profile-content .money {
+    color: #33691E;
+    font-family: "Lato", arial, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 15px;    
 }
 .header .profile-content .social a {
     background: #b0b7bf;
@@ -376,11 +384,11 @@ iframe {
     top: 0;
 }
 .skills .skillset .level-bar {
-    height: 2px;
+    height: 6px;
     background: #e8e8e8;
 }
 .skills .skillset .level-bar-inner {
-    height: 2px;
+    height: 6px;
     background: #66cb8c;
 }
 /* Testimonials section */
@@ -590,4 +598,32 @@ a.active {
 .project-item{
     border-radius: 5%;
     border: 1px #00B0FF solid;
+}
+.bg-white{
+    background-color: white;
+}
+.line-header{
+    border-bottom: 3px #0091EA solid;
+}
+
+
+.heading{
+    font-weight: 300;
+    display: inline-block;
+    padding-bottom: 10px;
+    position: relative;
+}
+.heading:before{
+    content: "";
+    position: absolute;
+    width: 25%;
+    height: 2px;
+    bottom: 0;
+    left: 0%;
+    border-bottom: 5px solid #82B1FF;
+}
+.resume{
+    color: #0091EA;
+    margin: 10px 0px 0px 0px;
+    padding-top: 30px;
 }
