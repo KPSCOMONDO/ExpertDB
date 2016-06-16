@@ -29,14 +29,26 @@ a.active {
     outline: none;
 }
 a {
-    color: #009688;
+    color: #424242;
+}
+.navbar a:hover,
+a:focus,
+a:active,
+a.active {
+    color: white;
 }
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #00BCD4;
+    color: #424242;
 }
+
+.navbar-custom ul li a{
+    color: white;
+}
+
+
 h1,
 h2,
 h3,
@@ -274,6 +286,14 @@ header .intro-text .intro-heading {
         line-height: 75px;
         margin-bottom: 50px;
     }
+}
+.pad-100{
+    padding-top: 10%; 
+    padding-bottom: 0px;
+}
+.pad-0{
+    padding-bottom: 0px;
+    font-size: 18pt;
 }
 section {
     padding: 100px 0;
@@ -738,7 +758,7 @@ body {
     webkit-tap-highlight-color: #fed136;
 }
 .footer{
-    background-color: black;
+    background-color: #212121;
 }
 .combobox{
     color: black;
@@ -803,10 +823,10 @@ body {
     color: blue;
 }
 .text-name-card{
-    color: #616161;    
+    color: #01579B;    
 }
 .text-skill-card{
-    color: #757575;
+    color: #00B0FF;
 }
 
 @media (min-width: 768px) {
@@ -817,4 +837,72 @@ body {
     .vertical-line-right{
         border-right: solid gainsboro 1px; 
     }
+    .vertical-line-left{
+        border-left: solid gainsboro 1px; 
+    }
+}
+h6.text-muted{
+    color: #00BCD4;
+}
+h3.text-muted,h4.text-muted{
+    color: #03A9F4;
+    padding-bottom:10px;
+    padding-top: 20px;
+}
+.searchbox{
+    padding-bottom: 50px;
+}
+.fa-male,.fa-female,.fa-birthday-cake,.glyphicon-map-marker{
+    color: #2E7D32;
+}
+.bg-light{
+    -webkit-box-shadow: inset -8px -200px 300px -30px rgba(250,250,250,0.88);
+    -moz-box-shadow: inset -8px -200px 300px -30px rgba(250,250,250,0.88);
+    box-shadow: inset -8px -200px 300px -30px rgba(250,250,250,0.88);
+}
+@media (min-height: 700px) {
+    .scroll{
+        height:500px;overflow-y:auto;width:auto;overflow-x : hidden;        
+    }
+}
+@media (min-height: 1200px) {
+    .scroll{
+        height:1000px;overflow-y:auto;width:auto;overflow-x : hidden;        
+    }
+}
+
+.footer-col{
+    font-weight: 300;
+    display: inline-block;
+    padding-bottom: 10px;
+    position: relative;
+}
+.footer-col:before{
+    content: "";
+    position: absolute;
+    width: 25%;
+    height: 2px;
+    bottom: 0;
+    left: 0%;
+    border-bottom: 5px solid #82B1FF;
+}
+.foot-contact{
+    color: #00B0FF;
+}
+.footer-line-top{
+    padding-top: 30px;
+    border-top: 1px solid #424242;
+}
+.footer-section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer-text{
+    color: #616161;
+}
+.heading{
+    color: #0091EA;
+}
+.languages{
+    color: black;;
 }

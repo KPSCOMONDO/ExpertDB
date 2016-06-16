@@ -7,23 +7,23 @@
  * Website: http://themes.3rdwavemedia.com/
 */
 /* ======= Base ======= */
-body {
+/*body {
     font-family: 'Lato', arial, sans-serif;
     color: #434343;
     background: white;
     font-size: 16px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-}
+}*/
 h1,
 h2,
 h3,
 h4,
 h5,
-h6 {
+h6{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    color: #49515a;
+    color: #00C853;
 }
 a {
     color: #1E88E5;
@@ -128,16 +128,24 @@ iframe {
 .header .profile-content .name {
     color: #49515a;
     font-size: 38px;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
     margin-top: 30px;
 }
 .header .profile-content .desc {
-    color: #778492;
+    color: #0091EA;
     font-family: "Lato", arial, sans-serif;
     font-weight: 400;
     font-size: 24px;
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 15px;    
+}
+.header .profile-content .money {
+    color: #33691E;
+    font-family: "Lato", arial, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 15px;    
 }
 .header .profile-content .social a {
     background: #b0b7bf;
@@ -176,9 +184,10 @@ iframe {
 }
 .section .heading {
     margin-top: 0;
-    margin-bottom: 30px;
-    color: #32383e;
-    font-size: 24px;
+    margin-bottom: 20px;
+    color: #00B0FF;
+    font-size: 20px;
+    
 }
 .section .content .more-link .fa {
     margin-right: 5px;
@@ -352,6 +361,7 @@ iframe {
     margin-bottom: 0;
 }
 /* Skills Section */
+/* Skills Section */
 .skills .intro {
     margin-bottom: 30px;
 }
@@ -363,9 +373,10 @@ iframe {
     position: relative;
     margin-top: 0;
     margin-bottom: 10;
+    color: #0091EA;
 }
 .skills .skillset .level-title .level-label {
-    color: #49515a;
+    color: #00E676;
     font-size: 12px;
     font-weight: 400;
     font-family: "Lato", arial, sans-serif;
@@ -374,11 +385,11 @@ iframe {
     top: 0;
 }
 .skills .skillset .level-bar {
-    height: 2px;
+    height: 6px;
     background: #e8e8e8;
 }
 .skills .skillset .level-bar-inner {
-    height: 2px;
+    height: 6px;
     background: #66cb8c;
 }
 /* Testimonials section */
@@ -562,5 +573,65 @@ iframe {
 .profile-bar{   
     width: 40px;
     height:40px;
-    margin-top: 2%;
+    margin: 0 0 0 0;    
+    padding: 0 0 0 0;
+}
+.navbar-custom-detail{
+    background-color: #00B0FF;
+}
+.navbar-nav a{
+    color: white;
+}
+.navbar-nav a:hover{
+     background: rgba(254, 209, 54, 0.3);
+    opacity: 0.5;
+    
+}
+.navbar-nav a {
+    color: #ffffff;
+}
+.navbar-nav a:hover,
+a:focus,
+a:active,
+a.active {
+    color: #616161;
+}
+.project-item{
+    border-radius: 5%;
+    border: 1px #00B0FF solid;
+}
+.bg-white{
+    background-color: white;
+}
+.line-header{
+    border-bottom: 3px #0091EA solid;
+}
+.contact{    
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #EEEEEE;
+}
+.heading{
+    font-weight: 300;
+    display: inline-block;
+    padding-bottom: 10px;
+    position: relative;
+}
+.heading:before{
+    content: "";
+    position: absolute;
+    width: 25%;
+    height: 2px;
+    bottom: 0;
+    left: 0%;
+    border-bottom: 5px solid #82B1FF;
+}
+.resume{
+    color: #0091EA;
+    margin: 10px 0px 0px 0px;
+    padding-top: 30px;
+}
+.navbar-brand{
+    color: #ffffff;
 }

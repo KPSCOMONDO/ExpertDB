@@ -24,11 +24,11 @@ label{
     font-size: 12pt;
 }
 .navbar{
-    background-color: #4CAF50;
+    background-color: white;
 }
-h1,h2,h3,h4
+h1,h2,h3,h4,label
 {
-    color: #4CAF50;    
+    color: #2196F3;    
 }
 .panel,.form-control{
     border-radius: 0%;       
@@ -68,4 +68,20 @@ button:hover{
 }
 .level{
     font-size: 8pt;
+}
+.section{
+  padding-top: 60px;   
+}
+/* Block navbar custom*/
+.navbar-custom{
+    background-color: #2196F3;
+}
+ul li a{  
+    color: white;
+}
+.sidebar li a{  
+    color: black;
+}
+.navbar-brand{
+    color: white;
 }
