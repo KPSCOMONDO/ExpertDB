@@ -69,3 +69,19 @@ button:hover{
 .level{
     font-size: 8pt;
 }
+.section{
+  padding-top: 60px;   
+}
+/* Block navbar custom*/
+.navbar-custom{
+    background-color: #2196F3;
+}
+ul li a{  
+    color: white;
+}
+.sidebar li a{  
+    color: black;
+}
+.navbar-brand{
+    color: white;
+}

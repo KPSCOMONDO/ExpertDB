@@ -632,3 +632,6 @@ a.active {
     margin: 10px 0px 0px 0px;
     padding-top: 30px;
 }
+.navbar-brand{
+    color: #ffffff;
+}
