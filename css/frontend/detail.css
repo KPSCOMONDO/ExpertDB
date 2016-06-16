@@ -132,7 +132,7 @@ iframe {
     margin-top: 30px;
 }
 .header .profile-content .desc {
-    color: #00E676;
+    color: #0091EA;
     font-family: "Lato", arial, sans-serif;
     font-weight: 400;
     font-size: 24px;
@@ -187,6 +187,7 @@ iframe {
     margin-bottom: 20px;
     color: #00B0FF;
     font-size: 20px;
+    
 }
 .section .content .more-link .fa {
     margin-right: 5px;
@@ -605,8 +606,12 @@ a.active {
 .line-header{
     border-bottom: 3px #0091EA solid;
 }
-
-
+.contact{    
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #EEEEEE;
+}
 .heading{
     font-weight: 300;
     display: inline-block;

@@ -832,6 +832,9 @@ body {
     .vertical-line-right{
         border-right: solid gainsboro 1px; 
     }
+    .vertical-line-left{
+        border-left: solid gainsboro 1px; 
+    }
 }
 h6.text-muted{
     color: #00BCD4;
