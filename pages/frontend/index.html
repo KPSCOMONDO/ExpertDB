@@ -8,18 +8,14 @@
         <meta name="author" content="">
         <title>Expert Database</title>
         <!-- Bootstrap Core CSS -->        
-
         <link href="../../css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="../../css/frontend/grayscale.css" rel="stylesheet" type="text/css"/>
         <link href="../../font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css"/>
-        <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-        <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css"> 
         <link href="../../css/frontend/index.css" rel="stylesheet" type="text/css"/>
 
         <link href="../../bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
         <!-- Custom CSS -->   
-        <link href="../../font-awesome/css/sb-admin-2.css" rel="stylesheet" type="text/css"/>
-        <link href="../../font-awesome/css/sb-admin-2.css" rel="stylesheet" type="text/css"/>
+        <link href="../../font-awesome/css/sb-admin-2.css" rel="stylesheet" type="text/css"/>       
         <link href="../../bower_components/metisMenu/dist/metisMenu.css" rel="stylesheet" type="text/css"/>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
@@ -46,7 +42,7 @@
                             <a href="#page-top"></a>
                         </li>
                         <li>
-                            <a class="page-scroll" href="#home">Home</a>
+                            <a class="" href="#home">Home</a>
                         </li>                        
                         <li>
                             <a class="page-scroll" href="#mission">Mission</a>
@@ -61,14 +57,26 @@
                         </li>
                         <li>
                             <a class="page-scroll" target="new" href="http://kshrd.com.kh/jsp/aboutus.hrd">About</a>
-                        </li>                       
+                        </li>      
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                Language <i class="fa fa-caret-down"></i>
+                            </a>
+                            <ul class="dropdown-menu" style="background-color: #000">
+                                <li>
+                                    <a href="#"><img src="../../img/flag/khmer.png" width="40"> Khmer</a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="../../img/flag/english.png" width="40"> English</a>
+                                </li>                                                                                        
+                            </ul>                           
+                        </li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
             </div>
             <!-- /.container -->
         </nav>
-
 
         <!-- Intro Header -->
         <header class="intro">
@@ -91,9 +99,9 @@
             <div class="row">                  
                 <div class="col-lg-4 col-lg-offset-1 col-md-3 col-md-offset-1 col-sm-4 col-xs-10 col-xs-offset-1">                     
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pad-2px text-left">
-                        <h3 class="text-muted">Find Employee</h3>
+                        <h3 class="text-muted footer-col">Find Employee</h3>
                         <div class="input-group custom-search-form searchbox">
-                            <input type="text" class="form-control" placeholder="Search...">
+                            <input type="text" class="form-control" placeholder="Search for skill...">
                             <span class="input-group-btn">
                                 <button class="btn btn-default" type="button">
                                     <i class="fa fa-search"></i>
@@ -248,7 +256,7 @@
                 <div class="col-lg-6 col-md-7 col-sm-6 col-xs-10 col-xs-offset-1 border-thin text-left vertical-line-left"> 
                     <div class="col-lg-12">
                         <div class="col-lg-10">
-                            <h3 class="text-muted">Employees</h3>
+                            <h3 class="text-muted footer-col">Employees</h3>
                         </div>                       
                         <div class="col-lg-2">
 
@@ -290,9 +298,9 @@
                             </div>                                                                            
                         </div>
                     </div>                        
-                    <!-- End of record -->                    
+                    <!-- End of record -->        
                     <!-- one record -->
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 btn-card vertical-line-right">                                                                
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 btn-card vertical-line-right bg-light">
                         <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 border-none">                                                                                         
                             <img class="img-responsive img-circle" src="../../img/profile/nini.jpg" alt="">                            
                         </div>    
@@ -302,8 +310,8 @@
                                 <h6 class="mag-10px text-skill-card">Software developer</h6>                                                                     
                             </div>
                             <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 text-left pad-2px border-none">                                                                      
-                                <h6 class="mag-10px text-muted text-right">22 years experience</h6>
-                                <h6 class="mag-10px text-muted text-right">12 000$</h6>                                    
+                                <h6 class="mag-10px text-muted text-right">20 years experience</h6>
+                                <h6 class="mag-10px text-muted text-right">1 300$</h6>                                    
                             </div>                                                            
                         </div>
                         <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 text-center border-none">                                
@@ -317,6 +325,43 @@
                                 </div>                                    
                                 <div class="col-lg-1 col-md-2 co2-sm-2 col-xs-2 text-center pad-2px">
                                     <i class="fa fa-male"></i>
+                                </div>
+                                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 text-center pad-2px">
+                                    <i class="fa fa-birthday-cake"> 23</i>
+                                </div>                                        
+                                <div class="col-lg-8 col-md-7 col-sm-7 col-xs-7">
+                                    <i class="glyphicon glyphicon-map-marker"> Phom Penh</i>
+                                </div>
+                            </div>                                                                            
+                        </div>
+                    </div>                        
+                    <!-- End of record -->
+                    <!-- one record -->
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 btn-card vertical-line-right">                                                                
+                        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 border-none">                                                                                         
+                            <img class="img-responsive img-circle" src="../../img/profile/yong.jpg" alt="">                            
+                        </div>    
+                        <div class="col-lg-10 col-md-10  col-sm-10 col-xs-10 border-none">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-left">                                  
+                                <h4 class="mag-10px text-name-card">Yong Yong</h4>
+                                <h6 class="mag-10px text-skill-card">System developer</h6>                                                                     
+                            </div>
+                            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 text-left pad-2px border-none">                                                                      
+                                <h6 class="mag-10px text-muted text-right">0 years experience</h6>
+                                <h6 class="mag-10px text-muted text-right">90$</h6>                                    
+                            </div>                                                            
+                        </div>
+                        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 text-center border-none">                                
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 detail-card border-none">
+                                <i class="btn fa fa-reorder fa-1x"></i>
+                            </div>                             
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 border-none text-right">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-left pad-2px">
+                                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">                                    
+                                </div>                                    
+                                <div class="col-lg-1 col-md-2 co2-sm-2 col-xs-2 text-center pad-2px">
+                                    <i class="fa fa-female"></i>
                                 </div>
                                 <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 text-center pad-2px">
                                     <i class="fa fa-birthday-cake"> 23</i>
@@ -442,11 +487,11 @@
                     <!-- one record -->
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 btn-card vertical-line-right bg-light">
                         <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 border-none">                                                                                         
-                            <img class="img-responsive img-circle" src="../../img/profile/channy.jpg" alt="">                            
+                            <img class="img-responsive img-circle" src="../../img/profile/mama.jpg" alt="">                            
                         </div>    
                         <div class="col-lg-10 col-md-10  col-sm-10 col-xs-10 border-none">
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-left">                                  
-                                <h4 class="mag-10px text-name-card">Sok Channy</h4>
+                                <h4 class="mag-10px text-name-card">Ma Ma</h4>
                                 <h6 class="mag-10px text-skill-card">Software developer</h6>                                                                     
                             </div>
                             <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 text-left pad-2px border-none">                                                                      
@@ -464,7 +509,7 @@
                                 <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">                                    
                                 </div>                                    
                                 <div class="col-lg-1 col-md-2 co2-sm-2 col-xs-2 text-center pad-2px">
-                                    <i class="fa fa-male"></i>
+                                    <i class="fa fa-female"></i>
                                 </div>
                                 <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 text-center pad-2px">
                                     <i class="fa fa-birthday-cake"> 23</i>
@@ -475,19 +520,21 @@
                             </div>                                                                            
                         </div>
                     </div>                        
-                    <!-- End of record --> <!-- one record -->
+
+                    <!-- End of record --> 
+                    <!-- one record -->
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 btn-card vertical-line-right bg-light">
                         <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 border-none">                                                                                         
-                            <img class="img-responsive img-circle" src="../../img/profile/channy.jpg" alt="">                            
+                            <img class="img-responsive img-circle" src="../../img/profile/ren.jpg" alt="">                            
                         </div>    
                         <div class="col-lg-10 col-md-10  col-sm-10 col-xs-10 border-none">
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-left">                                  
-                                <h4 class="mag-10px text-name-card">Sok Channy</h4>
+                                <h4 class="mag-10px text-name-card">Mork Chhov</h4>
                                 <h6 class="mag-10px text-skill-card">Software developer</h6>                                                                     
                             </div>
                             <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 text-left pad-2px border-none">                                                                      
-                                <h6 class="mag-10px text-muted text-right">2 years experience</h6>
-                                <h6 class="mag-10px text-muted text-right">360$</h6>                                    
+                                <h6 class="mag-10px text-muted text-right">10 years experience</h6>
+                                <h6 class="mag-10px text-muted text-right">2 960$</h6>                                    
                             </div>                                                            
                         </div>
                         <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 text-center border-none">                                
@@ -500,115 +547,7 @@
                                 <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">                                    
                                 </div>                                    
                                 <div class="col-lg-1 col-md-2 co2-sm-2 col-xs-2 text-center pad-2px">
-                                    <i class="fa fa-male"></i>
-                                </div>
-                                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 text-center pad-2px">
-                                    <i class="fa fa-birthday-cake"> 23</i>
-                                </div>                                        
-                                <div class="col-lg-8 col-md-7 col-sm-7 col-xs-7">
-                                    <i class="glyphicon glyphicon-map-marker"> Phom Penh</i>
-                                </div>
-                            </div>                                                                            
-                        </div>
-                    </div>                        
-                    <!-- End of record --> <!-- one record -->
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 btn-card vertical-line-right bg-light">
-                        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 border-none">                                                                                         
-                            <img class="img-responsive img-circle" src="../../img/profile/channy.jpg" alt="">                            
-                        </div>    
-                        <div class="col-lg-10 col-md-10  col-sm-10 col-xs-10 border-none">
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-left">                                  
-                                <h4 class="mag-10px text-name-card">Sok Channy</h4>
-                                <h6 class="mag-10px text-skill-card">Software developer</h6>                                                                     
-                            </div>
-                            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 text-left pad-2px border-none">                                                                      
-                                <h6 class="mag-10px text-muted text-right">2 years experience</h6>
-                                <h6 class="mag-10px text-muted text-right">360$</h6>                                    
-                            </div>                                                            
-                        </div>
-                        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 text-center border-none">                                
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 detail-card border-none">
-                                <i class="btn fa fa-reorder fa-1x"></i>
-                            </div>                             
-                        </div>
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 border-none text-right">
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-left pad-2px">
-                                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">                                    
-                                </div>                                    
-                                <div class="col-lg-1 col-md-2 co2-sm-2 col-xs-2 text-center pad-2px">
-                                    <i class="fa fa-male"></i>
-                                </div>
-                                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 text-center pad-2px">
-                                    <i class="fa fa-birthday-cake"> 23</i>
-                                </div>                                        
-                                <div class="col-lg-8 col-md-7 col-sm-7 col-xs-7">
-                                    <i class="glyphicon glyphicon-map-marker"> Phom Penh</i>
-                                </div>
-                            </div>                                                                            
-                        </div>
-                    </div>                        
-                    <!-- End of record --> <!-- one record -->
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 btn-card vertical-line-right bg-light">
-                        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 border-none">                                                                                         
-                            <img class="img-responsive img-circle" src="../../img/profile/channy.jpg" alt="">                            
-                        </div>    
-                        <div class="col-lg-10 col-md-10  col-sm-10 col-xs-10 border-none">
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-left">                                  
-                                <h4 class="mag-10px text-name-card">Sok Channy</h4>
-                                <h6 class="mag-10px text-skill-card">Software developer</h6>                                                                     
-                            </div>
-                            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 text-left pad-2px border-none">                                                                      
-                                <h6 class="mag-10px text-muted text-right">2 years experience</h6>
-                                <h6 class="mag-10px text-muted text-right">360$</h6>                                    
-                            </div>                                                            
-                        </div>
-                        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 text-center border-none">                                
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 detail-card border-none">
-                                <i class="btn fa fa-reorder fa-1x"></i>
-                            </div>                             
-                        </div>
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 border-none text-right">
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-left pad-2px">
-                                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">                                    
-                                </div>                                    
-                                <div class="col-lg-1 col-md-2 co2-sm-2 col-xs-2 text-center pad-2px">
-                                    <i class="fa fa-male"></i>
-                                </div>
-                                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 text-center pad-2px">
-                                    <i class="fa fa-birthday-cake"> 23</i>
-                                </div>                                        
-                                <div class="col-lg-8 col-md-7 col-sm-7 col-xs-7">
-                                    <i class="glyphicon glyphicon-map-marker"> Phom Penh</i>
-                                </div>
-                            </div>                                                                            
-                        </div>
-                    </div>                        
-                    <!-- End of record --> <!-- one record -->
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 btn-card vertical-line-right bg-light">
-                        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 border-none">                                                                                         
-                            <img class="img-responsive img-circle" src="../../img/profile/channy.jpg" alt="">                            
-                        </div>    
-                        <div class="col-lg-10 col-md-10  col-sm-10 col-xs-10 border-none">
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-left">                                  
-                                <h4 class="mag-10px text-name-card">Sok Channy</h4>
-                                <h6 class="mag-10px text-skill-card">Software developer</h6>                                                                     
-                            </div>
-                            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 text-left pad-2px border-none">                                                                      
-                                <h6 class="mag-10px text-muted text-right">2 years experience</h6>
-                                <h6 class="mag-10px text-muted text-right">360$</h6>                                    
-                            </div>                                                            
-                        </div>
-                        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 text-center border-none">                                
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 detail-card border-none">
-                                <i class="btn fa fa-reorder fa-1x"></i>
-                            </div>                             
-                        </div>
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 border-none text-right">
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-left pad-2px">
-                                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">                                    
-                                </div>                                    
-                                <div class="col-lg-1 col-md-2 co2-sm-2 col-xs-2 text-center pad-2px">
-                                    <i class="fa fa-male"></i>
+                                    <i class="fa fa-female"></i>
                                 </div>
                                 <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 text-center pad-2px">
                                     <i class="fa fa-birthday-cake"> 23</i>
@@ -620,7 +559,43 @@
                         </div>
                     </div>                        
                     <!-- End of record -->                             
-                    <!-- one record -->                                                                                  
+                    <!-- one record -->
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 btn-card vertical-line-right bg-light">
+                        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 border-none">                                                                                         
+                            <img class="img-responsive img-circle" src="../../img/profile/polen.jpg" alt="">                            
+                        </div>    
+                        <div class="col-lg-10 col-md-10  col-sm-10 col-xs-10 border-none">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-left">                                  
+                                <h4 class="mag-10px text-name-card">Polen Sok</h4>
+                                <h6 class="mag-10px text-skill-card">Database developer</h6>                                                                     
+                            </div>
+                            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 text-left pad-2px border-none">                                                                      
+                                <h6 class="mag-10px text-muted text-right">8 years experience</h6>
+                                <h6 class="mag-10px text-muted text-right">1 300$</h6>                                    
+                            </div>                                                            
+                        </div>
+                        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 text-center border-none">                                
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 detail-card border-none">
+                                <i class="btn fa fa-reorder fa-1x"></i>
+                            </div>                             
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 border-none text-right">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-left pad-2px">
+                                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">                                    
+                                </div>                                    
+                                <div class="col-lg-1 col-md-2 co2-sm-2 col-xs-2 text-center pad-2px">
+                                    <i class="fa fa-male"></i>
+                                </div>
+                                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 text-center pad-2px">
+                                    <i class="fa fa-birthday-cake"> 23</i>
+                                </div>                                        
+                                <div class="col-lg-8 col-md-7 col-sm-7 col-xs-7">
+                                    <i class="glyphicon glyphicon-map-marker"> Phom Penh</i>
+                                </div>
+                            </div>                                                                            
+                        </div>
+                    </div>                        
+                    <!-- End of record --> 
                     <div class="text-center">
                         <ul id="pagination-demo" class="pagination-sm pagination">
                             <li class="first disabled">
@@ -653,7 +628,7 @@
                                 <a href="#">Last</a>
                             </li>
                         </ul>
-                    </div>
+                    </div>  
                 </div>         
             </div>
         </section>
@@ -662,7 +637,7 @@
         <section id="mission" class="container content-section">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Mission</h2>
+                    <h2 class="section-heading heading footer-col">Mission</h2>
                     <h3 class="section-subheading text-muted">EXPERT DATABASE.</h3>
                 </div>
             </div>
@@ -681,7 +656,7 @@
                         <i class="fa fa-user fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading text-muted">Expert</h4>
-                    <p class="text-muted">Hire</p>
+                    <p class="text-muted">Bachelor's degree; at least 2 years of work experience that can be demonstrated to be applicable to the duties listed in the job description.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -689,48 +664,48 @@
                         <i class="fa fa-users fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading text-muted">Employer</h4>
-                    <p class="text-muted">Investigation</p>
+                    <p class="text-muted">Being a Membership of the Expert Database page provides many advantages with the Promoting or Updating the self-skill developed on the global market.</p>
                 </div>                              
             </div>        
         </section>
 
         <!-- Footer -->
-        <footer class="text-center footer">
-            <div class="footer-above">
+        <footer class="text-left footer">
+            <div class="footer-section">
                 <div class="container">
                     <div class="row">
-                        <div class="footer-col col-md-4">
-                            <h3>Location</h3>
-                            <p>3481 Melrose Place<br>Beverly Hills, CA 90210</p>
+
+                        <div class="col-md-4">
+                            <h3 class="footer-col"> ABOUT US</h3>
+                            <p class="footer-text">Korea Software HRD Center is an IT academy for training SW professionals established by Korea International Cooperation Agency (KOICA) and Webcash Co., Ltd in April, 2013. Our mission is to train SW experts, provide job opportunities for them, and improve SW technologies in Cambodia.</p>
                         </div>
-                        <div class="footer-col col-md-4">
-                            <h3>Around the Web</h3>
-                            <ul class="list-inline">
-                                <li>
-                                    <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
-                                </li>
-                            </ul>
+                        <div class="col-md-4">
+                            <h3 class="footer-col">Location</h3>
+                            <p class="footer-text">Address: #12, St 323, Sangkat Boeung Kak II, KhanToul Kork, Phnom Penh, Cambodia.</p>
+                        </div>
+                        <div class="col-md-4">
+                            <h3 class="footer-col">Contact</h3>
+                            <p>Tel:</p>
+                            <p class="footer-text">(855)23 99 13 14</p>
+                            <p class="footer-text">(855)77 77 12 36 (Khmer, English)</p>
+                            <p class="footer-text">(855)15 4 5555 2 (Khmer, English)</p>
+                            <p class="footer-text">(855)17 52 81 69(Korean, English)</p>
+                            <p>Email:</p>
+                            <a href="#" class="foot-contact">info.kshrd@gmail.com</a><br>
+                            <a href="#" class="foot-contact">phirum.gm@gmail.com</a>
                         </div>                        
                     </div>
                 </div>
             </div>
-            <div class="footer-below">
+            <div class="footer-line-top">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-12">
-                            Copyright © Your Website 2014
+                        <div class="col-lg-8">
+                            <p class="footer-text">Copyright © Your Website 2016</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <p class="footer-text"><i class="fa fa-youtube fa-2x"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <i class="fa fa-facebook fa-2x"></i></p>
                         </div>
                     </div>
                 </div>
@@ -774,11 +749,7 @@
                 </div>
             </div> 
         </div>       
-
-
         <!-- jQuery -->
-
-
         <script src="../../js/frontend/index.js" type="text/javascript"></script>
         <script src="../../js/JQuery/jquery.easing.min.js" type="text/javascript"></script>
         <script src="../../js/JQuery/bootstrap.js" type="text/javascript"></script>
@@ -793,6 +764,6 @@
         <script src="../../bower_components/metisMenu/dist/metisMenu.min.js"></script>
         <!-- Custom Theme JavaScript -->    
         <script src="../../js/backend/sb-admin-2.js" type="text/javascript"></script>
-
+        <script src="../../js/JQuery/bootstrap.js" type="text/javascript"></script>
     </body>
 </html>

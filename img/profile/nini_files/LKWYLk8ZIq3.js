@@ -1,4 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js(["W8a7u"]); }
-
-__d('EntstreamGroupFeedObjectOptionsMenu',['EntstreamFeedObjectFollow','EntstreamFeedObjectHide'],function a(b,c,d,e,f,g){if(c.__markCompiled)c.__markCompiled();function h(i,j,k){i.subscribe('itemclick',function(l,m){switch(m.item.getValue()){case 'markspam':c('EntstreamFeedObjectHide').hide(j);break;case 'report':break;case 'follow_post':case 'unfollow_post':c('EntstreamFeedObjectFollow').toggleFollow(m.item,j,k);break;}}.bind(this));}f.exports=h;},null);
-__d("XBizHomePageController",["XController"],function a(b,c,d,e,f,g){c.__markCompiled&&c.__markCompiled();f.exports=c("XController").create("\/business\/",{});},null);
