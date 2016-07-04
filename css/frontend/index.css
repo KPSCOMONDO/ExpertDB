@@ -785,7 +785,7 @@ body {
 .btn-card{
     color: black;
     font-size: 10pt;
-    padding: 15px 5px 5px 5px;       
+    padding: 15px 5px 5px 25px;       
     margin: 2px 2px 2px 2px;
     border-bottom: solid gainsboro 1px;
     border-right: solid gainsboro 1px;

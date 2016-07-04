@@ -19,7 +19,7 @@
         <link href="../../bower_components/metisMenu/dist/metisMenu.css" rel="stylesheet" type="text/css"/>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <!--<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>-->
     </head>
     <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
         <!-- Navigation -->
@@ -108,9 +108,9 @@
                                 </button>
                             </span>
                         </div>                        
-                        <div class="col-lg-12 col-md-12 col-xs-12 pad-2px">                            
-                            <h4 class="text-muted pad-2px">Categories</h4>
-                            <div role="navigation">
+                        <div class="col-lg-12 col-md-12 col-xs-12 pad-2px">                                                        
+                            <a data-toggle="collapse" href="#bl-category"><h4 class="text-muted pad-2px">Categories</h4></a>
+                            <div role="navigation" class="collapse collapsing" id="bl-category">
                                 <div class="sidebar-nav navbar-collapse">
                                     <ul class="nav" id="side-menu" >                                                                          
                                         <li>
@@ -176,31 +176,38 @@
                         </div>                    
 
                         <div class="col-lg-12 col-md-12 col-xs-12 text-left pad-2px">                         
-                            <div class="col-lg-12 col-md-12 col-xs-12 pad-2px">
-                                <h4 class="text-muted pad-2px">Gender</h4>
-                                <div class="mag-10px">
+                            <div class="col-lg-12 col-md-12 col-xs-12 pad-2px">                                
+                                <a data-toggle="collapse" href="#bl-gender"><h4 class="text-muted pad-2px">Gender</h4></a>
+                                <div class="mag-10px collapse" id="bl-gender">
                                     <input type="checkbox" class="mag-10px text-inline"> <p class="text-muted mag-10px text-inline">Male</p>
                                     <input type="checkbox" class="mag-10px text-inline"> <p class="text-muted mag-10px text-inline">Female</p>
                                 </div>
                             </div>                        
                         </div>   
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-left pad-2px">
-                            <h4 class="text-muted pad-2px">Age</h4>
-                            <div class="mag-10px">                              
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-left pad-2px">                            
+                            <a data-toggle="collapse" href="#bl-age"><h4 class="text-muted pad-2px">Age</h4></a>
+                            <div class="mag-10px collapse" id="bl-age">                              
                                 <div class="col-lg-6 col-md-6  col-sm-6 col-xs-6 pad-2px">
-                                    <input id="ex2" class="text-inline" type="range"/>  
+                                    <input type="radio" name="rdAge"><p class="text-muted mag-10px text-inline"> 18 to 25 years old</p>
                                 </div>
-                                <div class="col-lg-6 col-md-6  col-sm-6 pad-2px">
-                                    <p class="text-muted text-inline​ pad-2px">
-                                        18 to 80 years
-                                    </p>
+                                <div class="col-lg-6 col-md-6  col-sm-6 col-xs-6 pad-2px">                                    
+                                    <input type="radio" name="rdAge"><p class="text-muted mag-10px text-inline"> 26 to 29 years old</p>                                    
+                                </div>
+                                <div class="col-lg-6 col-md-6  col-sm-6 col-xs-6 pad-2px">                                    
+                                    <input type="radio" name="rdAge"><p class="text-muted mag-10px text-inline"> 30 to 35 years old</p>
+                                </div>
+                                <div class="col-lg-6 col-md-6  col-sm-6 col-xs-6 pad-2px">                                    
+                                    <input type="radio" name="rdAge"><p class="text-muted mag-10px text-inline"> 36 than 40 years old</p>
+                                </div>
+                                <div class="col-lg-6 col-md-6  col-sm-6 col-xs-6 pad-2px">                                    
+                                    <input type="radio" name="rdAge"><p class="text-muted mag-10px text-inline"> More than 40 years old</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-12 col-md-12 col-xs-12 text-left pad-2px">                         
-                            <div class="col-lg-12 col-md-12 col-xs-12 pad-2px">
-                                <h4 class="text-muted pad-2px">Province / City</h4>
-                                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 pad-5px">
+                            <div class="col-lg-12 col-md-12 col-xs-12 pad-2px">                                
+                                <a data-toggle="collapse" href="#bl-province"><h4 class="text-muted pad-2px">Province / City</h4></a>
+                                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 pad-5px collapse" id="bl-province">
                                     <select class="form-control">
                                         <option>Select one</option>
                                         <option>Phnom Penh</option>
@@ -212,9 +219,9 @@
                             </div>                        
                         </div>
 
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-left pad-2px">
-                            <h4 class="text-muted pad-2px">Language</h4> 
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-left pad-2px">                             
+                            <a data-toggle="collapse" href="#bl-language"><h4 class="text-muted pad-2px">Language</h4></a>                           
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 collapse" id="bl-language">
                                 <input type="checkbox"/><p class="text-inline text-muted mag-10px">English</p><br>
                                 <input type="checkbox"/><p class="text-inline text-muted mag-10px">Chines</p><br>
                                 <input type="checkbox"/><p class="text-inline text-muted mag-10px">Korean</p><br>
@@ -223,9 +230,9 @@
                                 <input type="checkbox"/><p class="text-inline text-muted mag-10px">Thai</p><br>
                             </div>
                         </div> 
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-left pad-2px">
-                            <h4 class="text-muted pad-2px">Experience</h4>
-                            <div class="mag-10px">                              
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-left pad-2px">                            
+                            <a data-toggle="collapse" href="#bl-experience"><h4 class="text-muted pad-2px">Experience</h4></a>
+                            <div class="mag-10px collapse" id="bl-experience">                                                 
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pad-2px">
                                     <input id="ex2" class="text-inline" type="range"/>  
                                 </div>
@@ -235,17 +242,22 @@
                                     </p>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-left pad-2px">
-                            <h4 class="text-muted pad-2px">Salary</h4>
-                            <div class="mag-10px">                              
-                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pad-2px">
-                                    <input id="ex2" class="text-inline" type="range"/>  
+                        </div>                                                   
+                       
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-left pad-2px">                            
+                            <a data-toggle="collapse" href="#bl-salary"><h4 class="text-muted pad-2px">Salary</h4></a>
+                            <div class="mag-10px collapse" id="bl-salary">                              
+                                <div class="col-lg-6 col-md-6  col-sm-6 col-xs-6 pad-2px">                                    
+                                    <input type="radio" name="rdSalary"><p class="text-muted mag-10px text-inline"> 0$ - 199 USD</p>
                                 </div>
-                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pad-2px">
-                                    <p class="text-muted text-inline​ pad-2px">
-                                        300$ to 600$
-                                    </p>
+                                <div class="col-lg-6 col-md-6  col-sm-6 col-xs-6 pad-2px">                                    
+                                    <input type="radio" name="rdSalary"><p class="text-muted mag-10px text-inline"> 200 - 499 USD</p>
+                                </div>
+                                <div class="col-lg-6 col-md-6  col-sm-6 col-xs-6 pad-2px">                                    
+                                    <input type="radio" name="rdSalary"><p class="text-muted mag-10px text-inline"> 1,000 - 1,999 USD</p>
+                                </div>
+                                <div class="col-lg-6 col-md-6  col-sm-6 col-xs-6 pad-2px">                                    
+                                    <input type="radio" name="rdSalary"><p class="text-muted mag-10px text-inline"> 2,000 USD+</p>
                                 </div>
                             </div>
                         </div>                        
